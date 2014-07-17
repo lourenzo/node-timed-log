@@ -1,0 +1,32 @@
+{
+  "name": "timed-log",
+  "version": "0.1.0",
+  "description": "A small revamp of console.log and console.error, adding time banners before messages",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lourenzo/node-timed-log.git"
+  },
+  "keywords": [
+    "Log",
+    "Timed",
+    "Timer",
+    "Format",
+    "Formatted",
+    "Logging",
+    "Console",
+    "Debug"
+  ],
+  "author": "Lourenzo Ferreira <lourenzo@gmail.com>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/lourenzo/node-timed-log/issues"
+  },
+  "homepage": "https://github.com/lourenzo/node-timed-log",
+  "dependencies": {
+    "moment": "^2.7.0"
+  }
+}
